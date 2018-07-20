@@ -2,7 +2,7 @@ def square_array(array)
   # your code here
   y = []
   x = array.each {|i| y << i**2}
-  print y
+  y
 end
 
 numbers = [1,2,3,4]
